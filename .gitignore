@@ -6,3 +6,13 @@ tmp/
 tempcheck/
 outputs_chunks/
 data/raw/*.pdf
+data/ground_truth/*.docx
+data/ground_truth/*.txt
+data/processed/*
+!data/processed/.gitkeep
+EMAIL_TEMPLATE.md
+REPORT_TEMPLATE.md
+SUBMISSION_NOTES.md
+PROPOSAL_V*.md
+SUBMISSION_EMAIL_DRAFT.md
+TECHNICAL_SUMMARY.md

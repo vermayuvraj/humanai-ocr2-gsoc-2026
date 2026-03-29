@@ -1,9 +1,3 @@
----
-noteId: "3037f630293711f18604996533becafa"
-tags: []
-
----
-
 # Experiment Log
 
 ## 2026-03-26
