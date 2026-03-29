@@ -1,0 +1,252 @@
+{
+  "document_id": "Buendia - Instruccion",
+  "pdf_path": "data\\raw\\Buendia - Instruccion.pdf",
+  "ground_truth_path": "data\\ground_truth\\Buendia - Instruccion transcription.docx",
+  "ocr_backend": "tesseract",
+  "ocr_model": null,
+  "tesseract_lang": "spa_old",
+  "tesseract_psm": 6,
+  "partial_run": false,
+  "reference_excerpt": "AlINFINITAMENTE AMABLENIÑO JESUS.\nA Vos, Dulcissimo NiñoJESUS, que no solo osdignasteis de llamarosDoctor de los Niños, sino también de assis-tir como Niño entre los Doctores, se consagra humilde esta pequeñaInstrucción de los Niños. Es assi, que ella también se dirige a la ju-ventud; pero a esta, como recuer-do de lo que aprendió, a los Ni-ños, como precisa explicacion de lo que deben estudiar. Por este so-lo titulo es muy vuestra; y porser para Niños, que confiais a laeducacion de vuestra Compañia, lo es mucho mas. En Vos, (Divi-no Exemplar de todas las virtu-des) tienen abreviado el mas se-\nguro disseño de su edad: la Reli-gion para con Dios en la devotaassistencia a los Templos; la piedadcon los Padres en la obedienciamas rendida; y la modestia, y de-seo de saber, con los mayores, gustando mas de oir, y pregun-tar, que de definir, y resolver. Bienque esto en vuestra infinita Sabi-duria fue soberana dignacion, yen la natural ignorancia de losNiños es indispensable necessi-dad. Ni tienen solamente en Vos el disseño, la luz, y el exemplo, sino tambien el amor, y protec-cion. Vos, como singular Maes-tro de los Niños, les dais enten-dimiento, y comunicais la sabi-duria. Vos les prometeis el Reynode los Cielos, y os indignais conquien les aparta de Vos, y lesproponeis por norma del can-dor, inocencia, y christiana hu-mildad. Vuestro amor parece queno pudo explicarse mas tierno, yliberal con los Niños, pues nocontento de echarles vuestras di-\nvinas bendiciones, les unisteisa vuestro sagrado pecho con sua-vissimos abrazos. Dichosa edad, que os merecio tan regalados cariños!Y pues en la celestial Jeru-salen no ha mudado de condicionvuestra Benignidad, proseguid, o Niño tierno, y Dios Eterno, proseguid en bendecirles, y favo-recerles. Sean tan fervorosamen-te devotos de vuestra AdmirableMADRE, que se porten como sushijos, y hermanos de leche conVos. Seran sabios, si fueren cas-tos; que no entra vuestra Sabi-duria, donde no ay mucha pure-za de conciencia. Crezcan envuestro santo temor, y amor, co-como en los años, y mucho mas. Adelantense en la virtud, comoen las letras, y mucho mas; has-ta que lleguen, por vuesetra imi-tacion, a ser varones perfectos, y consumados, agradables avuestros ojos, y provechosos ala Republica, que libra casi to-da su felizidad en la acertada\ncrianza de la niñez. Assi sea, Divinissimo Niño, por vuestragracia, assi sea, a vuestra ma-yor gloria. Amen. \nCENSURA DEL R. P. ANTONIO CO-dorniu de la Compañía de jesus, Maes-tro que fue de Theologia, ExaminadorSynodal de los Obispados de Gerona, Ur-gel, y Barcelona, Oc.DE orden del Ilustre Señor Don Fran-cisco Drechos, Canonigo, y SacristanDignidad de la Santa Iglesia de Gerona, yVicario General por el Ilustrissimo SeñorD. Balthasar de Bastero y lledo, Obispode Gerona, del Consejo de su Magestad, & c. He visto un Librito, cuyo titulo es: Ins-truccion de Christiana, y Politica Cortesa-nia, Oc. Su Author D. Fausto Agustin deBuendia, Colegial que fue en el Imperialde Cordellas, &c. Y brevemente digo, no solo que nada contiene contra la Fe, y buenas costumbres, sino que muy atentoel Author con entrambas, describe, y en-seña tan culta, y discreta la Virtud, co-mo santa la Policia, y Urbanidad. LosSeñoritos, que se criaren con estos do-cumentos, mereceran, quando hombres, aver nacido Señores. Porque no solo sa-bran ser Caballeros, sino tambien a lo",
+  "pages": [
+    {
+      "page_index": 0,
+      "line_count": 21,
+      "raw_text": "CS DOP TO O e TIE ON OOOO Te\n3 INSTRUCCION &\na! DE :\n? CHRISTIANA , Y POLITICA\n34 CoRTESANIA CON DIOS, :\n>) Y 2\n3 CON LOS HOMBRES. e:\n*3 DISPUESTA , PRIMARIAMEN.\n$4 te, para los Señores Colegiales del Ce\n$2 Imperial Colegio de Nueſtra Señora, +4\n) Y vantliago de Cordellas , de la es\nCompañia de Jasus de ;\nBarcelona, ST\n33 SU AUTHOR A\n>) Don Fauſto Aguſtin de Buendïz.\n23 Quien la dedica al infiniramente\n— amable Niño Jesus, >\nCON LICENCIA, cs\nÏ GERONA: Por JavMme Bnó , Im- cs |\nh) preflor, y Librero, Año, 1740. D\naras ea E o Ur UE UN Ue)",
+      "cleaned_text": "CS DOP TO O e TIE ON OOOO Te\n3 INSTRUCCION &\na! DE :\n? CHRISTIANA, Y POLITICA\n34 CoRTESANIA CON DIOS, :\n>) Y 2\n3 CON LOS HOMBRES. e:\n*3 DISPUESTA, PRIMARIAMEN.\n$4 te, para los Señores Colegiales del Ce\n$2 Imperial Colegio de Nueſtra Señora, +4\n) Y vantliago de Cordellas, de la es\nCompañia de Jasus de;\nBarcelona, ST\n33 SU AUTHOR A\n>) Don Fauſto Aguſtin de Buendïz.\n23 Quien la dedica al infiniramente\n— amable Niño Jesus, >\nCON LICENCIA, cs\nÏ GERONA: Por JavMme Bnó, Im- cs |\nh) preflor, y Librero, Año, 1740. D\naras ea E o Ur UE UN Ue)",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 1,
+      "line_count": 5,
+      "raw_text": "SAT ==] Vos , Dulciſsimo Niño\nSEAN, ] JEsus , que no ſolo 08 Exrſaj.zz:\n5’ ==) | dignaſteis de llamaros :8.\n022 41 Door de los Niños, Wah lo\na # | , S* e aña .",
+      "cleaned_text": "SAT ==] Vos, Dulciſsimo Niño\nSEAN, ] JEsus, que no ſolo 08 Exrſaj.zz:\n5’ ==) | dignaſteis de llamaros :8.\n022 41 Door de los Niños, Wah lo\na # |, S* e aña.",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 2,
+      "line_count": 4,
+      "raw_text": "curo difſeño Y: edad : la Reli-\ngion para con Dios en la devora\naſsiſtécia a los Templos;la piedad\ncon los Padres en la obediencia",
+      "cleaned_text": "curo difſeño Y: edad : la Religion para con Dios en la devora\naſsiſtécia a los Templos;la piedad\ncon los Padres en la obediencia",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 3,
+      "line_count": 3,
+      "raw_text": "ambos Drechos , Canonigo , y Sacriſtán]\nDignidad de la Santa Igleſia de Gerona , y\nVicario General por el Uuſtriſsimo Señor;",
+      "cleaned_text": "ambos Drechos, Canonigo, y Sacriſtán]\nDignidad de la Santa Igleſia de Gerona, y\nVicario General por el Uuſtriſsimo Señor;",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 4,
+      "line_count": 6,
+      "raw_text": "rich de la Compañía de Zefus, Cathbedra.\n‘teo antes de Theología en el Colegio de\nBarcetona, (oy Prefecto de ſus Efludios y\nRetor que ſue dei Colegío de Cordellas , y\nde Gerona , Calificador del Santo Oficio,\nExaminador Synodal de muchos Obiſpa-",
+      "cleaned_text": "rich de la Compañía de Zefus, Cathbedra.\n‘teo antes de Theología en el Colegio de\nBarcetona, (oy Prefecto de ſus Efludios y\nRetor que ſue dei Colegío de Cordellas, y\nde Gerona, Calificador del Santo Oficio,\nExaminador Synodal de muchos Obiſpa-",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 5,
+      "line_count": 4,
+      "raw_text": "quan digno es de que V.A. e eonceda\nla licéncia , que (oricita , para Ue le im-\n1ma4 ; ibrementez 0\nprima ’ Í corra l1 # E pda a E 5 AA dra dé e, aq",
+      "cleaned_text": "quan digno es de que V.A. e eonceda\nla licéncia, que (oricita, para Ue le im1ma4; ibrementez 0\nprima ’ Í corra l1 # E pda a E 5 AA dra dé e, aq",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 6,
+      "line_count": 3,
+      "raw_text": "penoſa , que provechoſa ) para guardarS$\nles del mal , © inſtruirles en el bien ; y que\npor ello les enſeña las buenas letras, para",
+      "cleaned_text": "penoſa, que provechoſa ) para guardarS$\nles del mal, © inſtruirles en el bien; y que\npor ello les enſeña las buenas letras, para",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 7,
+      "line_count": 3,
+      "raw_text": "mera explicará la atencion , que ſe debe á\nDios. La ſegunda , la que ſe debe cada\nuno á sí miſmo. Y la tercera , la que ſe",
+      "cleaned_text": "mera explicará la atencion, que ſe debe á\nDios. La ſegunda, la que ſe debe cada\nuno á sí miſmo. Y la tercera, la que ſe",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 8,
+      "line_count": 4,
+      "raw_text": "5 ENE ENSARON algunos, que la Cor4\n7 ED d. teſta, de que hemos de tratar’,\n7 1770) no es mas que un eſmalte de la\nA] virtud. Pero ſegun la Dodctri-",
+      "cleaned_text": "5 ENE ENSARON algunos, que la Cor4\n7 ED d. teſta, de que hemos de tratar’,\n7 1770) no es mas que un eſmalte de la\nA] virtud. Pero ſegun la Dodctri-",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 9,
+      "line_count": 7,
+      "raw_text": "oculta fuerza para ablandar genios duros,\ny reducirles a;la razog; y porfin, es aquella\nla poca Íal, que cueſta poco, y fazonay\ncomo.quiere, los corazones de los ‘otros ,,\ny les conquiſta mas facilmente & du reli\npeto, que la ceñiuda, y armada authoridad¿\n— ‘Lució maravilloſamente eſta prenda en",
+      "cleaned_text": "oculta fuerza para ablandar genios duros,\ny reducirles a;la razog; y porfin, es aquella\nla poca Íal, que cueſta poco, y fazonay\ncomo.quiere, los corazones de los ‘otros,,\ny les conquiſta mas facilmente & du reli\npeto, que la ceñiuda, y armada authoridad¿\n— ‘Lució maravilloſamente eſta prenda en",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 10,
+      "line_count": 5,
+      "raw_text": "TenDo Dios, el que , Íſegun el orden de\ne ſu Divina Providencia , reparte Libe- -\nral los días , y años de la vida 2 quantos\nviven : es conſequencia , que quien deſpii\nerta con vida , y ſalud, uſe con ſu Mageſ4",
+      "cleaned_text": "TenDo Dios, el que, Íſegun el orden de\ne ſu Divina Providencia, reparte Libe- ral los días, y años de la vida 2 quantos\nviven : es conſequencia, que quien deſpii\nerta con vida, y ſalud, uſe con ſu Mageſ4",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 11,
+      "line_count": 11,
+      "raw_text": "EEE eee ae aotearoa\nde Mania, y de la Reditud de ſu Julticia,\ncon que premia Dios a los buenos con el\nCielo , y caſtiga 4 los malos en el Infierno:\ncreyendo tambien en general todo lo que\n‘tiene , y manda creer la Sanra Igleſia Ca-\ntholica Romana , con firme reſolucion de\nderramar antes la ſangre , y perder la vida,\nque faltaf en la mas minima coſa de la Ec.\nAſi haze a Dios la debida honra de tratar =\nle.como quien es, infinitamente sablos, Y",
+      "cleaned_text": "EEE eee ae aotearoa\nde Mania, y de la Reditud de ſu Julticia,\ncon que premia Dios a los buenos con el\nCielo, y caſtiga 4 los malos en el Infierno:\ncreyendo tambien en general todo lo que\n‘tiene, y manda creer la Sanra Igleſia Catholica Romana, con firme reſolucion de\nderramar antes la ſangre, y perder la vida,\nque faltaf en la mas minima coſa de la Ec.\nAſi haze a Dios la debida honra de tratar =\nle.como quien es, infinitamente sablos, Y",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 12,
+      "line_count": 5,
+      "raw_text": "las Indulgencias , que puedo .ganar , y pre-’\ntendo ganar quantas puedo , con las obras\nque fuziere. Y para que eſtas os ſean mas\nagradables , os las ofrezco por manos de\nnueſtra Señora Mania Santiſsima , y uni",
+      "cleaned_text": "las Indulgencias, que puedo.ganar, y pre-’\ntendo ganar quantas puedo, con las obras\nque fuziere. Y para que eſtas os ſean mas\nagradables, os las ofrezco por manos de\nnueſtra Señora Mania Santiſsima, y uni",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 13,
+      "line_count": 12,
+      "raw_text": "iiaiiaiiociiiiciaiiaiaaiaiiaiiciaiiaii A EUEIIEES EZ Dr ACCSSSSÍS III\n; Pára que- nos alcanze de:Dios , que en\ntodo. hagamos ſu divina voluntad , 4 ma-\nyorglorialuya, O\nOtro á San FRaNciIsco’' Xavier, para que\npos alcanze buena muerte, y ſanto fin.\nOtro á los Santos DocTones de la Igleſia,\npara que ſepamos ſer imitadores de lus\n- virtudes -, y letras. - ““_\nOtro en ſatisfaccion por las Benditas AL\n+ ‘mas del Purgatorio , ſegun el orden de\n‘ a — a as ©\" .acucCC 1 J) a 4 1 TU",
+      "cleaned_text": "iiaiiaiiociiiiciaiiaiaaiaiiaiiciaiiaii A EUEIIEES EZ Dr ACCSSSSÍS III\n; Pára que- nos alcanze de:Dios, que en\ntodo. hagamos ſu divina voluntad, 4 mayorglorialuya, O\nOtro á San FRaNciIsco’' Xavier, para que\npos alcanze buena muerte, y ſanto fin.\nOtro á los Santos DocTones de la Igleſia,\npara que ſepamos ſer imitadores de lus\n- virtudes -, y letras. - ““_\nOtro en ſatisfaccion por las Benditas AL\n+ ‘mas del Purgatorio, ſegun el orden de\n‘ a — a as ©\".acucCC 1 J) a 4 1 TU",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 14,
+      "line_count": 5,
+      "raw_text": "altra las Oraciones , de modo , que las oy-\ngan los circunſtantes ; ni eche ſuſpirós , ni\nhaga exterioridades , como beſar la tierra,\neliender los brazos en cruz., ú otras háza-\nal nerracg",
+      "cleaned_text": "altra las Oraciones, de modo, que las oygan los circunſtantes; ni eche ſuſpirós, ni\nhaga exterioridades, como beſar la tierra,\neliender los brazos en cruz., ú otras házaal nerracg",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 15,
+      "line_count": 6,
+      "raw_text": "gel Manipulo », y Efola. Cuyde que el Als\nba eſté ¡gual , ſin llegar al ſuclo , y todo lo\ndemás bien compueſto, Irá delante con cl\nMiſal hacia el Altar, y alli arrodillado town\nmarz el bonexte , que le d4 el Sacerdote ,: y\nle dexará al lado. de la Epiſtola fuera : del",
+      "cleaned_text": "gel Manipulo », y Efola. Cuyde que el Als\nba eſté ¡gual, ſin llegar al ſuclo, y todo lo\ndemás bien compueſto, Irá delante con cl\nMiſal hacia el Altar, y alli arrodillado town\nmarz el bonexte, que le d4 el Sacerdote,: y\nle dexará al lado. de la Epiſtola fuera : del",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 16,
+      "line_count": 5,
+      "raw_text": "A mas de eſto , ſe debe advertir, que\nfiempre que ſe paſla por medio del Altar,\npara llevar el Miſal , 0 para otro qual-\nquier motivo , ſe dobla una rodilla ; y las\ndos , fi eſta expueſto el Santiſstimo. Todo",
+      "cleaned_text": "A mas de eſto, ſe debe advertir, que\nfiempre que ſe paſla por medio del Altar,\npara llevar el Miſal, 0 para otro qualquier motivo, ſe dobla una rodilla; y las\ndos, fi eſta expueſto el Santiſstimo. Todo",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 17,
+      "line_count": 14,
+      "raw_text": "REN TL RTE CET IC E CE . ... B° ]\nacompañando al Señor , haſta que eſte co-\n‘locado en el Sagrario de la Igleſia, de don-\nde ſatlid : que todo eſte cartejo ſe debe al\nSoberano Rey de los Reyes.\n| Sea muy amigo de oir fermones ;;\nporque es grande ſeñal de ſer de Dios , el\noir con guſto la palabra $ Dios. Pero\nquando los oyere, eſté advertido de na\ntofer , ni eſcupir , ni ſonarſe de fuerte, que\nſea notado ; ni mire fixamente ¿2 la cara\ndel Predicador , que no es modeſtia , at\nreſpetó. Podrá mirarle una , ú otra vez,\nES o ES",
+      "cleaned_text": "REN TL RTE CET IC E CE.... B° ]\nacompañando al Señor, haſta que eſte co‘locado en el Sagrario de la Igleſia, de don-\nde ſatlid : que todo eſte cartejo ſe debe al\nSoberano Rey de los Reyes.\n| Sea muy amigo de oir fermones;;\nporque es grande ſeñal de ſer de Dios, el\noir con guſto la palabra $ Dios. Pero\nquando los oyere, eſté advertido de na\ntofer, ni eſcupir, ni ſonarſe de fuerte, que\nſea notado; ni mire fixamente ¿2 la cara\ndel Predicador, que no es modeſtia, at\nreſpetó. Podrá mirarle una, ú otra vez,\nES o ES",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 18,
+      "line_count": 4,
+      "raw_text": "pondiente decóro. Y en todo calo , como\neſtamos ſiempre á viſta de Dios , y en ſu\npreſencia , y de nueſtro Angel de Guarda z\nes notable deſatencion hazer á ſolas colas",
+      "cleaned_text": "pondiente decóro. Y en todo calo, como\neſtamos ſiempre á viſta de Dios, y en ſu\npreſencia, y de nueſtro Angel de Guarda z\nes notable deſatencion hazer á ſolas colas",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 19,
+      "line_count": 8,
+      "raw_text": "23 DBL TRATO. :\nveſtido á ſolas , para no dár aſco , ni ota\nſión de que le deſprecie, á quien le miras\n-- -Nablar , óreïr a ſolas , es de ſimplesz\nfaltar , y dar chiflidos, es de gente baxaz\ndár palmadas , O golpes en paredes , y fla\nllas , es de fatuos. Y aſsi guardeſe de co-\nmeter , aun: á Íolas , ſemejantes indecen-",
+      "cleaned_text": "23 DBL TRATO. :\nveſtido á ſolas, para no dár aſco, ni ota\nſión de que le deſprecie, á quien le miras\n-- -Nablar, óreïr a ſolas, es de ſimplesz\nfaltar, y dar chiflidos, es de gente baxaz\ndár palmadas, O golpes en paredes, y fla\nllas, es de fatuos. Y aſsi guardeſe de cometer, aun: á Íolas, ſemejantes indecen-",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 20,
+      "line_count": 4,
+      "raw_text": "tuvo una hora de Purgatorio, por un gar-\nbanzo , que deſecho , ſiendo bueno. El\nbeber ha de ſer fin ruido del gaznare , te\nniendo la ſalvilla baxo del vaſo, 6 cuy4",
+      "cleaned_text": "tuvo una hora de Purgatorio, por un garbanzo, que deſecho, ſiendo bueno. El\nbeber ha de ſer fin ruido del gaznare, te\nniendo la ſalvilla baxo del vaſo, 6 cuy4",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 21,
+      "line_count": 4,
+      "raw_text": "falra , para la política de comer con otros,\nLlegada la hora de retirarſe 4 la cama,\nſea el deſnudarſe con decencia , y deſcu-\nbriendo lo menos que pueda del cuerpos",
+      "cleaned_text": "falra, para la política de comer con otros,\nLlegada la hora de retirarſe 4 la cama,\nſea el deſnudarſe con decencia, y deſcubriendo lo menos que pueda del cuerpos",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 22,
+      "line_count": 5,
+      "raw_text": "con quien ſe habla , aſsi por no ofenderla\ncon. el aliento , como por no ſatpicarla con -\nLa ſaliva’, fi ſe habla con eficazia. Menos\nſe le ha de coger de la ropa, ni darle con\nel codo para que arrienda ; y aun mucho",
+      "cleaned_text": "con quien ſe habla, aſsi por no ofenderla\ncon. el aliento, como por no ſatpicarla con La ſaliva’, fi ſe habla con eficazia. Menos\nſe le ha de coger de la ropa, ni darle con\nel codo para que arrienda; y aun mucho",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 23,
+      "line_count": 10,
+      "raw_text": "ooo occc.«.«—«——55 mn ll ü “RP\n- ganar credito con rodos. Ni aun el modo\n--ha de ſer picante , ntde fiſga , con vozes,\n-que ſuenen á moſa,ni con ademanes de bo-\n“ca, y ojos , que fignifiquen lo miſmo , ó\n“Infinuen algun deſprecio. Pera tampoco\nTe ha de-alabar con demasia , porque es Iís\nſonja, burla ; ni hazer muchos agaſſajos,\ny ofrecimientos a todos; porque aſsi rara\ns-cree , y nadie los eſtima. _.",
+      "cleaned_text": "ooo occc.«.«—«——55 mn ll ü “RP\n- ganar credito con rodos. Ni aun el modo\n--ha de ſer picante, ntde fiſga, con vozes,\n-que ſuenen á moſa,ni con ademanes de bo“ca, y ojos, que fignifiquen lo miſmo, ó\n“Infinuen algun deſprecio. Pera tampoco\nTe ha de-alabar con demasia, porque es Iís\nſonja, burla; ni hazer muchos agaſſajos,\ny ofrecimientos a todos; porque aſsi rara\ns-cree, y nadie los eſtima. _.",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 24,
+      "line_count": 5,
+      "raw_text": "es cl que ſolamente ſe ha de ſalir al extre-\nmo de mano izquierda , para la buelta {i-\nguiente. Aſsi cómo es deuda, que ſe le dé\ná cada uno el erratamiento, que le conviene,\ncómo de Fm. de Señoría, d Excelencia, aí.",
+      "cleaned_text": "es cl que ſolamente ſe ha de ſalir al extremo de mano izquierda, para la buelta {i-\nguiente. Aſsi cómo es deuda, que ſe le dé\ná cada uno el erratamiento, que le conviene,\ncómo de Fm. de Señoría, d Excelencia, aí.",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 25,
+      "line_count": 5,
+      "raw_text": "gos ; y parientes ,-y otras perfonas de cali-\ndad , de lás quales aya dependencia por lu\némpleo, fiempre que-vienen.de camino 3 y\n4 qualquiera, que venga de fuera det lugar,\ndondeiño eſta ¿fi ſe deſpidió á la partidas",
+      "cleaned_text": "gos; y parientes,-y otras perfonas de calidad, de lás quales aya dependencia por lu\némpleo, fiempre que-vienen.de camino 3 y\n4 qualquiera, que venga de fuera det lugar,\ndondeiño eſta ¿fi ſe deſpidió á la partidas",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 26,
+      "line_count": 5,
+      "raw_text": "pero no permita, que baxe eſcalera á baxe.\nnſte allí un poco, que ſe retire, y ſi no pu<\ndiere conſeguirlo , baxe haſta el pie de la\neſcalera con moderada priſla,. y buelto de\ncara al viſitado , que le eſpera arriba , haga",
+      "cleaned_text": "pero no permita, que baxe eſcalera á baxe.\nnſte allí un poco, que ſe retire, y ſi no pu<\ndiere conſeguirlo, baxe haſta el pie de la\neſcalera con moderada priſla,. y buelto de\ncara al viſitado, que le eſpera arriba, haga",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 27,
+      "line_count": 5,
+      "raw_text": "que le diſponga, y traiga, ſin preguntar an-\ntes al que viſita , fi le quiere : y fi acalo los\nque le firven, no Lon tan puntuales en acu-\ndir á ſu obligacion , no les riña alli delan4\nte, ni mueſtre enfado , antes deve eſcuſar",
+      "cleaned_text": "que le diſponga, y traiga, ſin preguntar antes al que viſita, fi le quiere : y fi acalo los\nque le firven, no Lon tan puntuales en acudir á ſu obligacion, no les riña alli delan4\nte, ni mueſtre enfado, antes deve eſcuſar",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 28,
+      "line_count": 6,
+      "raw_text": "renga quien trinche para todas , ó diſpon+\nZa, que tome cada uno á lu guſto : aſsi ſe\nhan de eſtár quietos los combidados , ef\nperando la diſpoſicion de el que cambir\nda:y f eſte, O el erinchanre pide el plato,des\nfele ; y recibaſe can demoſtracion de afecs",
+      "cleaned_text": "renga quien trinche para todas, ó diſpon+\nZa, que tome cada uno á lu guſto : aſsi ſe\nhan de eſtár quietos los combidados, ef\nperando la diſpoſicion de el que cambir\nda:y f eſte, O el erinchanre pide el plato,des\nfele; y recibaſe can demoſtracion de afecs",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 29,
+      "line_count": 6,
+      "raw_text": "de tocar nada de la vianda, que reparte, ſi\nno con el tenedor, y cuchillo ; ſi no, pue\nde inftar., bien que fin importunacion, que:\ntome cada uno del plato lo que:ſea de ſw\nguſto , dexandolo a ſu arburio : aunque es\nbien dáruno , ú otro bocado al que ſe ve,",
+      "cleaned_text": "de tocar nada de la vianda, que reparte, ſi\nno con el tenedor, y cuchillo; ſi no, pue\nde inftar., bien que fin importunacion, que:\ntome cada uno del plato lo que:ſea de ſw\nguſto, dexandolo a ſu arburio : aunque es\nbien dáruno, ú otro bocado al que ſe ve,",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 30,
+      "line_count": 5,
+      "raw_text": "donde ſe eſcrive , y el dia. , y año.; deſpues\ndel remare general , que Dios guarde á V.\nMed. a V.Emin. oa V.S. lina, d 4 V,Exc.\nÓ V.S. los dilatados años, que deſeo , y\nſuplico. Barcelona , y Deztembre 24. de",
+      "cleaned_text": "donde ſe eſcrive, y el dia., y año.; deſpues\ndel remare general, que Dios guarde á V.\nMed. a V.Emin. oa V.S. lina, d 4 V,Exc.\nÓ V.S. los dilatados años, que deſeo, y\nſuplico. Barcelona, y Deztembre 24. de",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 31,
+      "line_count": 5,
+      "raw_text": "de Copons , guarde Dios muchos años,\nArzobiſpo de Tarragona , Primado de Eſ.\npaña » del Conſejo de ſa Mageſtad, &c.\nTambien en eſto de poner , ó no poner el\nnombre en el ſobre cicrito para ſemejantes",
+      "cleaned_text": "de Copons, guarde Dios muchos años,\nArzobiſpo de Tarragona, Primado de Eſ.\npaña » del Conſejo de ſa Mageſtad, &c.\nTambien en eſto de poner, ó no poner el\nnombre en el ſobre cicrito para ſemejantes",
+      "cleanup_strategy": "heuristic"
+    },
+    {
+      "page_index": 32,
+      "line_count": 5,
+      "raw_text": "7 grolſero , y que procede fiempre contra\ney » y razon, Ceda todo lo dicho á ma-\nyor gloria de Dios , para que merczcamos\nverle , y hablarle como Corteſanos ſuyos\nen cl Real Palacio , y Corze de ſu Glorias",
+      "cleaned_text": "7 grolſero, y que procede fiempre contra\ney » y razon, Ceda todo lo dicho á mayor gloria de Dios, para que merczcamos\nverle, y hablarle como Corteſanos ſuyos\nen cl Real Palacio, y Corze de ſu Glorias",
+      "cleanup_strategy": "heuristic"
+    }
+  ],
+  "full_text": "CS DOP TO O e TIE ON OOOO Te\n3 INSTRUCCION &\na! DE :\n? CHRISTIANA, Y POLITICA\n34 CoRTESANIA CON DIOS, :\n>) Y 2\n3 CON LOS HOMBRES. e:\n*3 DISPUESTA, PRIMARIAMEN.\n$4 te, para los Señores Colegiales del Ce\n$2 Imperial Colegio de Nueſtra Señora, +4\n) Y vantliago de Cordellas, de la es\nCompañia de Jasus de;\nBarcelona, ST\n33 SU AUTHOR A\n>) Don Fauſto Aguſtin de Buendïz.\n23 Quien la dedica al infiniramente\n— amable Niño Jesus, >\nCON LICENCIA, cs\nÏ GERONA: Por JavMme Bnó, Im- cs |\nh) preflor, y Librero, Año, 1740. D\naras ea E o Ur UE UN Ue)\n\nSAT ==] Vos, Dulciſsimo Niño\nSEAN, ] JEsus, que no ſolo 08 Exrſaj.zz:\n5’ ==) | dignaſteis de llamaros :8.\n022 41 Door de los Niños, Wah lo\na # |, S* e aña.\n\ncuro difſeño Y: edad : la Religion para con Dios en la devora\naſsiſtécia a los Templos;la piedad\ncon los Padres en la obediencia\n\nambos Drechos, Canonigo, y Sacriſtán]\nDignidad de la Santa Igleſia de Gerona, y\nVicario General por el Uuſtriſsimo Señor;\n\nrich de la Compañía de Zefus, Cathbedra.\n‘teo antes de Theología en el Colegio de\nBarcetona, (oy Prefecto de ſus Efludios y\nRetor que ſue dei Colegío de Cordellas, y\nde Gerona, Calificador del Santo Oficio,\nExaminador Synodal de muchos Obiſpa-\n\nquan digno es de que V.A. e eonceda\nla licéncia, que (oricita, para Ue le im1ma4; ibrementez 0\nprima ’ Í corra l1 # E pda a E 5 AA dra dé e, aq\n\npenoſa, que provechoſa ) para guardarS$\nles del mal, © inſtruirles en el bien; y que\npor ello les enſeña las buenas letras, para\n\nmera explicará la atencion, que ſe debe á\nDios. La ſegunda, la que ſe debe cada\nuno á sí miſmo. Y la tercera, la que ſe\n\n5 ENE ENSARON algunos, que la Cor4\n7 ED d. teſta, de que hemos de tratar’,\n7 1770) no es mas que un eſmalte de la\nA] virtud. Pero ſegun la Dodctri-\n\noculta fuerza para ablandar genios duros,\ny reducirles a;la razog; y porfin, es aquella\nla poca Íal, que cueſta poco, y fazonay\ncomo.quiere, los corazones de los ‘otros,,\ny les conquiſta mas facilmente & du reli\npeto, que la ceñiuda, y armada authoridad¿\n— ‘Lució maravilloſamente eſta prenda en\n\nTenDo Dios, el que, Íſegun el orden de\ne ſu Divina Providencia, reparte Libe- ral los días, y años de la vida 2 quantos\nviven : es conſequencia, que quien deſpii\nerta con vida, y ſalud, uſe con ſu Mageſ4\n\nEEE eee ae aotearoa\nde Mania, y de la Reditud de ſu Julticia,\ncon que premia Dios a los buenos con el\nCielo, y caſtiga 4 los malos en el Infierno:\ncreyendo tambien en general todo lo que\n‘tiene, y manda creer la Sanra Igleſia Catholica Romana, con firme reſolucion de\nderramar antes la ſangre, y perder la vida,\nque faltaf en la mas minima coſa de la Ec.\nAſi haze a Dios la debida honra de tratar =\nle.como quien es, infinitamente sablos, Y\n\nlas Indulgencias, que puedo.ganar, y pre-’\ntendo ganar quantas puedo, con las obras\nque fuziere. Y para que eſtas os ſean mas\nagradables, os las ofrezco por manos de\nnueſtra Señora Mania Santiſsima, y uni\n\niiaiiaiiociiiiciaiiaiaaiaiiaiiciaiiaii A EUEIIEES EZ Dr ACCSSSSÍS III\n; Pára que- nos alcanze de:Dios, que en\ntodo. hagamos ſu divina voluntad, 4 mayorglorialuya, O\nOtro á San FRaNciIsco’' Xavier, para que\npos alcanze buena muerte, y ſanto fin.\nOtro á los Santos DocTones de la Igleſia,\npara que ſepamos ſer imitadores de lus\n- virtudes -, y letras. - ““_\nOtro en ſatisfaccion por las Benditas AL\n+ ‘mas del Purgatorio, ſegun el orden de\n‘ a — a as ©\".acucCC 1 J) a 4 1 TU\n\naltra las Oraciones, de modo, que las oygan los circunſtantes; ni eche ſuſpirós, ni\nhaga exterioridades, como beſar la tierra,\neliender los brazos en cruz., ú otras házaal nerracg\n\ngel Manipulo », y Efola. Cuyde que el Als\nba eſté ¡gual, ſin llegar al ſuclo, y todo lo\ndemás bien compueſto, Irá delante con cl\nMiſal hacia el Altar, y alli arrodillado town\nmarz el bonexte, que le d4 el Sacerdote,: y\nle dexará al lado. de la Epiſtola fuera : del\n\nA mas de eſto, ſe debe advertir, que\nfiempre que ſe paſla por medio del Altar,\npara llevar el Miſal, 0 para otro qualquier motivo, ſe dobla una rodilla; y las\ndos, fi eſta expueſto el Santiſstimo. Todo\n\nREN TL RTE CET IC E CE.... B° ]\nacompañando al Señor, haſta que eſte co‘locado en el Sagrario de la Igleſia, de don-\nde ſatlid : que todo eſte cartejo ſe debe al\nSoberano Rey de los Reyes.\n| Sea muy amigo de oir fermones;;\nporque es grande ſeñal de ſer de Dios, el\noir con guſto la palabra $ Dios. Pero\nquando los oyere, eſté advertido de na\ntofer, ni eſcupir, ni ſonarſe de fuerte, que\nſea notado; ni mire fixamente ¿2 la cara\ndel Predicador, que no es modeſtia, at\nreſpetó. Podrá mirarle una, ú otra vez,\nES o ES\n\npondiente decóro. Y en todo calo, como\neſtamos ſiempre á viſta de Dios, y en ſu\npreſencia, y de nueſtro Angel de Guarda z\nes notable deſatencion hazer á ſolas colas\n\n23 DBL TRATO. :\nveſtido á ſolas, para no dár aſco, ni ota\nſión de que le deſprecie, á quien le miras\n-- -Nablar, óreïr a ſolas, es de ſimplesz\nfaltar, y dar chiflidos, es de gente baxaz\ndár palmadas, O golpes en paredes, y fla\nllas, es de fatuos. Y aſsi guardeſe de cometer, aun: á Íolas, ſemejantes indecen-\n\ntuvo una hora de Purgatorio, por un garbanzo, que deſecho, ſiendo bueno. El\nbeber ha de ſer fin ruido del gaznare, te\nniendo la ſalvilla baxo del vaſo, 6 cuy4\n\nfalra, para la política de comer con otros,\nLlegada la hora de retirarſe 4 la cama,\nſea el deſnudarſe con decencia, y deſcubriendo lo menos que pueda del cuerpos\n\ncon quien ſe habla, aſsi por no ofenderla\ncon. el aliento, como por no ſatpicarla con La ſaliva’, fi ſe habla con eficazia. Menos\nſe le ha de coger de la ropa, ni darle con\nel codo para que arrienda; y aun mucho\n\nooo occc.«.«—«——55 mn ll ü “RP\n- ganar credito con rodos. Ni aun el modo\n--ha de ſer picante, ntde fiſga, con vozes,\n-que ſuenen á moſa,ni con ademanes de bo“ca, y ojos, que fignifiquen lo miſmo, ó\n“Infinuen algun deſprecio. Pera tampoco\nTe ha de-alabar con demasia, porque es Iís\nſonja, burla; ni hazer muchos agaſſajos,\ny ofrecimientos a todos; porque aſsi rara\ns-cree, y nadie los eſtima. _.\n\nes cl que ſolamente ſe ha de ſalir al extremo de mano izquierda, para la buelta {i-\nguiente. Aſsi cómo es deuda, que ſe le dé\ná cada uno el erratamiento, que le conviene,\ncómo de Fm. de Señoría, d Excelencia, aí.\n\ngos; y parientes,-y otras perfonas de calidad, de lás quales aya dependencia por lu\némpleo, fiempre que-vienen.de camino 3 y\n4 qualquiera, que venga de fuera det lugar,\ndondeiño eſta ¿fi ſe deſpidió á la partidas\n\npero no permita, que baxe eſcalera á baxe.\nnſte allí un poco, que ſe retire, y ſi no pu<\ndiere conſeguirlo, baxe haſta el pie de la\neſcalera con moderada priſla,. y buelto de\ncara al viſitado, que le eſpera arriba, haga\n\nque le diſponga, y traiga, ſin preguntar antes al que viſita, fi le quiere : y fi acalo los\nque le firven, no Lon tan puntuales en acudir á ſu obligacion, no les riña alli delan4\nte, ni mueſtre enfado, antes deve eſcuſar\n\nrenga quien trinche para todas, ó diſpon+\nZa, que tome cada uno á lu guſto : aſsi ſe\nhan de eſtár quietos los combidados, ef\nperando la diſpoſicion de el que cambir\nda:y f eſte, O el erinchanre pide el plato,des\nfele; y recibaſe can demoſtracion de afecs\n\nde tocar nada de la vianda, que reparte, ſi\nno con el tenedor, y cuchillo; ſi no, pue\nde inftar., bien que fin importunacion, que:\ntome cada uno del plato lo que:ſea de ſw\nguſto, dexandolo a ſu arburio : aunque es\nbien dáruno, ú otro bocado al que ſe ve,\n\ndonde ſe eſcrive, y el dia., y año.; deſpues\ndel remare general, que Dios guarde á V.\nMed. a V.Emin. oa V.S. lina, d 4 V,Exc.\nÓ V.S. los dilatados años, que deſeo, y\nſuplico. Barcelona, y Deztembre 24. de\n\nde Copons, guarde Dios muchos años,\nArzobiſpo de Tarragona, Primado de Eſ.\npaña » del Conſejo de ſa Mageſtad, &c.\nTambien en eſto de poner, ó no poner el\nnombre en el ſobre cicrito para ſemejantes\n\n7 grolſero, y que procede fiempre contra\ney » y razon, Ceda todo lo dicho á mayor gloria de Dios, para que merczcamos\nverle, y hablarle como Corteſanos ſuyos\nen cl Real Palacio, y Corze de ſu Glorias",
+  "evaluation_text": "SAT ==] Vos, Dulciſsimo Niño\nSEAN, ] JEsus, que no ſolo 08 Exrſaj.zz:\n5’ ==) | dignaſteis de llamaros :8.\n022 41 Door de los Niños, Wah lo\na # |, S* e aña.\n\ncuro difſeño Y: edad : la Religion para con Dios en la devora\naſsiſtécia a los Templos;la piedad\ncon los Padres en la obediencia\n\nambos Drechos, Canonigo, y Sacriſtán]\nDignidad de la Santa Igleſia de Gerona, y\nVicario General por el Uuſtriſsimo Señor;",
+  "evaluation": {
+    "word_error_rate": 0.9465648854961832,
+    "character_error_rate": 0.9024680344930122,
+    "normalized_word_error_rate": 0.9431818181818182,
+    "normalized_character_error_rate": 0.8921686746987951
+  }
+}
