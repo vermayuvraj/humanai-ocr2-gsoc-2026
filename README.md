@@ -96,6 +96,7 @@ python -m renaissance_ocr.cli --use-cleanup-model
 - `outputs/run_summary.json`: all processed documents
 - `outputs/run_report.md`: markdown summary of the latest run
 - `outputs/run_metrics.csv`: compact metrics table for document-level comparisons
+- `outputs/page_metrics.csv`: page-level metrics for slices with aligned page markers in the local ground truth
 
 Regenerate the report from an existing run summary:
 
