@@ -115,6 +115,13 @@ $env:PYTHONPATH="src"
 python -m renaissance_ocr.reporting --summary-path outputs/run_summary.json
 ```
 
+Compare two OCR runs and generate a markdown diff report:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m renaissance_ocr.comparison --baseline outputs\baseline_run_summary.json --candidate outputs\run_summary.json
+```
+
 ## Current OCR paths
 
 This repository currently supports two OCR paths:
