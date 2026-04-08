@@ -43,6 +43,16 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Lightweight tests
+
+```powershell
+$env:PYTHONPATH="src"
+python -m pip install -r requirements-test.txt
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+The repository also includes a small GitHub Actions workflow that runs these checks on pushes and pull requests.
+
 ## Running the pipeline
 
 Default run:
