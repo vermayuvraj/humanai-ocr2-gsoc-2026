@@ -15,6 +15,7 @@ from .dataset import (
 from .evaluation import evaluate_prediction
 from .ocr import build_ocr_engine
 from .pdf_processing import detect_main_text_region, render_pdf, split_lines
+from .reporting import write_report_artifacts
 
 
 def run_pipeline(config: PipelineConfig) -> list[dict]:
@@ -118,7 +119,9 @@ def run_pipeline(config: PipelineConfig) -> list[dict]:
             full_text, encoding="utf-8"
         )
 
-    write_json(config.output_dir / "run_summary.json", {"documents": run_summary})
+    summary_path = config.output_dir / "run_summary.json"
+    write_json(summary_path, {"documents": run_summary})
+    write_report_artifacts(summary_path)
     return run_summary
 
 

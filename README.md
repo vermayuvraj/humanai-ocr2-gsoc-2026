@@ -94,6 +94,15 @@ python -m renaissance_ocr.cli --use-cleanup-model
 - `outputs/<document_id>.txt`: final cleaned transcription
 - `outputs/<document_id>.json`: page-by-page OCR details and metrics
 - `outputs/run_summary.json`: all processed documents
+- `outputs/run_report.md`: markdown summary of the latest run
+- `outputs/run_metrics.csv`: compact metrics table for document-level comparisons
+
+Regenerate the report from an existing run summary:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m renaissance_ocr.reporting --summary-path outputs/run_summary.json
+```
 
 ## Current OCR paths
 
