@@ -1,6 +1,6 @@
 document_id,page_count,ocr_backend,ocr_variant,character_error_rate,normalized_character_error_rate,word_error_rate,normalized_word_error_rate
 Buendia - Instruccion,33,tesseract,tesseract:spa_old,0.9025,0.8922,0.9466,0.9432
-Covarrubias - Tesoro lengua,990,tesseract,tesseract:spa_old,n/a,n/a,n/a,n/a
+Covarrubias - Tesoro lengua,990,tesseract,tesseract:spa_old,0.2045,0.1749,0.6042,0.5338
 Guardiola - Tratado nobleza,311,tesseract,tesseract:spa_old,0.3325,0.3020,0.6959,0.6580
 PORCONES.228.38 – 1646,23,tesseract,tesseract:spa_old,0.8908,0.8766,0.9734,0.9642
 PORCONES.23.5 - 1628,12,tesseract,tesseract:spa_old,0.9881,0.9850,0.9977,0.9952

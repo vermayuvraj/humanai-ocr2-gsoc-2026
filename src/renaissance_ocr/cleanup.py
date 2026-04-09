@@ -13,6 +13,7 @@ class CleanupResult:
 
 
 def heuristic_cleanup(text: str) -> CleanupResult:
+    text = repair_mojibake(text)
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     rebuilt: list[str] = []
     index = 0
@@ -34,6 +35,62 @@ def heuristic_cleanup(text: str) -> CleanupResult:
     cleaned = re.sub(r"[ \t]+", " ", cleaned).strip()
     cleaned = cleaned.replace(" ,", ",").replace(" .", ".").replace(" ;", ";")
     return CleanupResult(cleaned_text=cleaned, strategy="heuristic")
+
+
+def repair_mojibake(text: str) -> str:
+    if not likely_mojibake(text):
+        return text
+    try:
+        repaired = text.encode("cp1252").decode("utf-8")
+    except UnicodeError:
+        return apply_common_replacements(text)
+    if mojibake_score(repaired) < mojibake_score(text):
+        return repaired
+    return apply_common_replacements(text)
+
+
+def likely_mojibake(text: str) -> bool:
+    return any(marker in text for marker in ("Ã", "Å", "â", "Â"))
+
+
+def mojibake_score(text: str) -> int:
+    return sum(text.count(marker) for marker in ("Ã", "Å", "â", "Â"))
+
+
+def apply_common_replacements(text: str) -> str:
+    replacements = {
+        "Å¿": "ſ",
+        "Ã±": "ñ",
+        "Ã‘": "Ñ",
+        "Ã¡": "á",
+        "Ã©": "é",
+        "Ã­": "í",
+        "Ã³": "ó",
+        "Ãº": "ú",
+        "Ã": "Á",
+        "Ã‰": "É",
+        "Ã": "Í",
+        "Ã“": "Ó",
+        "Ãš": "Ú",
+        "Ã¼": "ü",
+        "Ãœ": "Ü",
+        "Ã§": "ç",
+        "Ã‡": "Ç",
+        "â€™": "’",
+        "â€˜": "‘",
+        "â€œ": "“",
+        "â€": "”",
+        "â€”": "—",
+        "â€“": "–",
+        "Â¡": "¡",
+        "Â¿": "¿",
+        "Âº": "º",
+        "Âª": "ª",
+    }
+    repaired = text
+    for source, target in replacements.items():
+        repaired = repaired.replace(source, target)
+    return repaired
 
 
 class LanguageModelCleaner:

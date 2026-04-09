@@ -122,6 +122,13 @@ $env:PYTHONPATH="src"
 python -m renaissance_ocr.comparison --baseline outputs\baseline_run_summary.json --candidate outputs\run_summary.json
 ```
 
+Refresh the cleanup stage on existing OCR outputs without rerunning OCR:
+
+```powershell
+$env:PYTHONPATH="src"
+python -m renaissance_ocr.refresh --output-dir outputs
+```
+
 ## Current OCR paths
 
 This repository currently supports two OCR paths:
