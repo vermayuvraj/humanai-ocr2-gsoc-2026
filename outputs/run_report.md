@@ -15,6 +15,7 @@ Generated from `run_summary.json`.
 - Evaluated pages with page markers: 19
 - Best page NCER: `Guardiola - Tratado nobleza` page 13 at 0.0801
 - Worst page NCER: `PORCONES.23.5 - 1628` page 1 at 0.9850
+- Low-signal evaluated pages: 4
 
 ## Document Metrics
 
@@ -41,6 +42,15 @@ Generated from `run_summary.json`.
 | PORCONES.748.6 – 1650 | 2 | 5 | heuristic | 0.8775 | 0.9457 | RR rg rar 5 a ai \| ETIDA nani in equentta: Querido mio portas fenas que me ha miſte ajerp… |
 | PORCONES.748.6 – 1650 | 1 | 60 | heuristic | 0.8695 | 0.9942 | } j A d a y, E (7 á ) (4 es \|). ' ) SP, e / ¡Í, / 7 %, _ ”, ) d ho \| \| » \| ed \| Y) \| q L… |
 | Buendia - Instruccion | 2 | 5 | heuristic | 0.8176 | 0.9184 | SAT ==] Vos, Dulciſsimo Niño SEAN, ] JEsus, que no ſolo 08 Exrſaj.zz: 5’ ==) \| dignaſteis… |
+
+## Low-Signal Pages
+
+| Document | Page | Lines | Text Length | Alpha Ratio | Noise Ratio | OCR Excerpt |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| PORCONES.748.6 – 1650 | 1 | 60 | 119 | 0.3782 | 0.2353 | } j A d a y, E (7 á ) (4 es \|). ' ) SP, e / ¡Í, / 7 %, _ ”, ) d ho \| \| » \| ed \| Y) \| q L… |
+| PORCONES.23.5 - 1628 | 1 | 12 | 118 | 0.5932 | 0.1525 | +: $ ooo E, E ' OA y (©) : L . Y} AA >». N \| \|: UA 2 GN “al ° E treo) ASA '} 23 6 LO Er \|… |
+| Buendia - Instruccion | 2 | 5 | 122 | 0.7459 | 0.0902 | SAT ==] Vos, Dulciſsimo Niño SEAN, ] JEsus, que no ſolo 08 Exrſaj.zz: 5’ ==) \| dignaſteis… |
+| PORCONES.748.6 – 1650 | 4 | 6 | 213 | 0.7042 | 0.0610 | o ESPESO CIDO a CS _ Joannes T anger. de tortur.cab.3:num.76.Farinac.da : deliA.carjas, q… |
 
 ## Next Steps
 

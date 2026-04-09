@@ -29,6 +29,10 @@ class PageMetric:
     page_index: int
     line_count: int
     cleanup_strategy: str
+    text_length: int
+    alpha_ratio: float
+    noise_ratio: float
+    signal_band: str
     character_error_rate: float
     normalized_character_error_rate: float
     word_error_rate: float
@@ -102,12 +106,18 @@ def build_page_metrics(documents: list[dict], project_root: Path) -> tuple[list[
             evaluation = evaluate_prediction(reference, cleaned_text)
             if not evaluation:
                 continue
+            alpha_ratio = compute_alpha_ratio(cleaned_text)
+            noise_ratio = compute_noise_ratio(cleaned_text)
             metrics.append(
                 PageMetric(
                     document_id=document.get("document_id", "unknown"),
                     page_index=int(page_output.get("page_index", 0)),
                     line_count=int(page_output.get("line_count", 0)),
                     cleanup_strategy=str(page_output.get("cleanup_strategy", "unknown")),
+                    text_length=visible_length(cleaned_text),
+                    alpha_ratio=alpha_ratio,
+                    noise_ratio=noise_ratio,
+                    signal_band=classify_signal(cleaned_text, alpha_ratio, noise_ratio),
                     character_error_rate=evaluation.character_error_rate,
                     normalized_character_error_rate=evaluation.normalized_character_error_rate,
                     word_error_rate=evaluation.word_error_rate,
@@ -159,6 +169,10 @@ def write_page_metrics_csv(metrics: list[PageMetric], path: Path) -> None:
                 "page_number",
                 "line_count",
                 "cleanup_strategy",
+                "text_length",
+                "alpha_ratio",
+                "noise_ratio",
+                "signal_band",
                 "character_error_rate",
                 "normalized_character_error_rate",
                 "word_error_rate",
@@ -173,6 +187,10 @@ def write_page_metrics_csv(metrics: list[PageMetric], path: Path) -> None:
                     metric.page_index + 1,
                     metric.line_count,
                     metric.cleanup_strategy,
+                    metric.text_length,
+                    f"{metric.alpha_ratio:.4f}",
+                    f"{metric.noise_ratio:.4f}",
+                    metric.signal_band,
                     format_metric(metric.character_error_rate),
                     format_metric(metric.normalized_character_error_rate),
                     format_metric(metric.word_error_rate),
@@ -221,11 +239,13 @@ def build_markdown_report(
     if page_metrics:
         best_page = min(page_metrics, key=lambda metric: metric.normalized_character_error_rate)
         worst_page = max(page_metrics, key=lambda metric: metric.normalized_character_error_rate)
+        low_signal_pages = [metric for metric in page_metrics if metric.signal_band == "low"]
         lines.extend(
             [
                 f"- Evaluated pages with page markers: {len(page_metrics)}",
                 f"- Best page NCER: `{best_page.document_id}` page {best_page.page_index + 1} at {format_metric(best_page.normalized_character_error_rate)}",
                 f"- Worst page NCER: `{worst_page.document_id}` page {worst_page.page_index + 1} at {format_metric(worst_page.normalized_character_error_rate)}",
+                f"- Low-signal evaluated pages: {len(low_signal_pages)}",
             ]
         )
 
@@ -285,6 +305,32 @@ def build_markdown_report(
                     excerpt=escape_markdown_cell(metric.cleaned_excerpt),
                 )
             )
+        low_signal_pages = [metric for metric in page_metrics if metric.signal_band == "low"]
+        if low_signal_pages:
+            lines.extend(
+                [
+                    "",
+                    "## Low-Signal Pages",
+                    "",
+                    "| Document | Page | Lines | Text Length | Alpha Ratio | Noise Ratio | OCR Excerpt |",
+                    "| --- | ---: | ---: | ---: | ---: | ---: | --- |",
+                ]
+            )
+            for metric in sorted(
+                low_signal_pages,
+                key=lambda item: (-item.noise_ratio, item.alpha_ratio, item.text_length, item.document_id.lower(), item.page_index),
+            )[:10]:
+                lines.append(
+                    "| {document_id} | {page_number} | {line_count} | {text_length} | {alpha_ratio} | {noise_ratio} | {excerpt} |".format(
+                        document_id=metric.document_id,
+                        page_number=metric.page_index + 1,
+                        line_count=metric.line_count,
+                        text_length=metric.text_length,
+                        alpha_ratio=f"{metric.alpha_ratio:.4f}",
+                        noise_ratio=f"{metric.noise_ratio:.4f}",
+                        excerpt=escape_markdown_cell(metric.cleaned_excerpt),
+                    )
+                )
 
     if unevaluated or notes:
         lines.extend(
@@ -359,6 +405,42 @@ def build_excerpt(text: str, limit: int = 90) -> str:
 
 def escape_markdown_cell(text: str) -> str:
     return text.replace("|", "\\|")
+
+
+def visible_length(text: str) -> int:
+    return sum(1 for char in text if not char.isspace())
+
+
+def compute_alpha_ratio(text: str) -> float:
+    visible = visible_length(text)
+    if visible == 0:
+        return 0.0
+    alpha = sum(1 for char in text if char.isalpha())
+    return alpha / visible
+
+
+def compute_noise_ratio(text: str) -> float:
+    length = visible_length(text)
+    if length == 0:
+        return 1.0
+    allowed_punctuation = set(".,;:!?()'\"-—–")
+    noise = sum(
+        1
+        for char in text
+        if not char.isspace() and not char.isalnum() and char not in allowed_punctuation
+    )
+    return noise / length
+
+
+def classify_signal(text: str, alpha_ratio: float, noise_ratio: float) -> str:
+    length = visible_length(text)
+    if length < 20 or alpha_ratio < 0.35:
+        return "low"
+    if alpha_ratio < 0.80 or noise_ratio > 0.12:
+        return "low"
+    if alpha_ratio < 0.90 or noise_ratio > 0.06:
+        return "mixed"
+    return "text"
 
 
 def build_parser() -> argparse.ArgumentParser:

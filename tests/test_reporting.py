@@ -68,8 +68,10 @@ class ReportingTests(unittest.TestCase):
             page_csv_text = page_csv_path.read_text(encoding="utf-8")
 
             self.assertIn("Worst Evaluated Pages", report_text)
+            self.assertIn("Low-Signal Pages", report_text)
             self.assertIn("sample", report_text)
             self.assertIn("page_number", page_csv_text)
+            self.assertIn("signal_band", page_csv_text)
             self.assertIn("Adios mund0", page_csv_text)
 
 
